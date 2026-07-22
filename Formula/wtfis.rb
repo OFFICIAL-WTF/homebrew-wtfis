@@ -13,6 +13,20 @@ class Wtfis < Formula
     pkgshare.install "shell/wtfis.zsh", "shell/wtfis.bash"
   end
 
+  def caveats
+    <<~EOS
+      WTFIS needs shell integration to change your parent shell directory.
+
+      Zsh:
+        echo 'source "$(brew --prefix)/share/wtfis/wtfis.zsh"' >> ~/.zshrc
+        source ~/.zshrc
+
+      Bash:
+        echo 'source "$(brew --prefix)/share/wtfis/wtfis.bash"' >> ~/.bashrc
+        source ~/.bashrc
+    EOS
+  end
+
   test do
     assert_match "wtfis", shell_output("#{bin}/wtfis --help 2>&1", 0)
   end
