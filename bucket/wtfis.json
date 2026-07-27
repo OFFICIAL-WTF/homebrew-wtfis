@@ -1,0 +1,31 @@
+{
+  "version": "1.0.1",
+  "description": "Find projects fast from your terminal",
+  "homepage": "https://github.com/prophesourvolodymyr/WTFIS-CLI",
+  "license": "WTFPL",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/prophesourvolodymyr/WTFIS-CLI/releases/download/v1.0.1/wtfis-windows-x86_64.zip",
+      "hash": "504083df177a71d5502b3ef64edac718a4f3af5f5f375d1db831a70e081a429b",
+      "extract_dir": "wtfis-windows-x86_64"
+    }
+  },
+  "bin": [
+    ["wtfis.exe", "wtfis"],
+    ["cdd.exe", "cdd"]
+  ],
+  "notes": [
+    "Load PowerShell integration for parent-shell directory changes:",
+    ". \"$dir\\shell\\wtfis.ps1\""
+  ],
+  "checkver": {
+    "github": "https://github.com/prophesourvolodymyr/WTFIS-CLI"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/prophesourvolodymyr/WTFIS-CLI/releases/download/v$version/wtfis-windows-x86_64.zip"
+      }
+    }
+  }
+}

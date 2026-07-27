@@ -1,10 +1,17 @@
 # homebrew-wtfis
 
-Homebrew tap for [WTFIS](https://github.com/prophesourvolodymyr/WTFIS-CLI), a local-first fuzzy project finder.
+Homebrew tap and Scoop bucket for [WTFIS](https://github.com/prophesourvolodymyr/WTFIS-CLI), a local-first fuzzy project finder.
 
 ```bash
 brew tap prophesourvolodymyr/wtfis
 brew install wtfis
 ```
 
-The formula currently tracks the public `main` branch of WTFIS until a versioned release tag is published.
+Scoop on Windows:
+
+```powershell
+scoop bucket add wtfis https://github.com/prophesourvolodymyr/homebrew-wtfis
+scoop install wtfis
+```
+
+After installation, load the PowerShell wrapper once with the path shown by Scoop so WTFIS can change the parent shell directory.
