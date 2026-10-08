@@ -1,6 +1,8 @@
 # homebrew-wtfis
 
-Homebrew tap and Scoop bucket for [WTFIS](https://github.com/prophesourvolodymyr/WTFIS-CLI), a local-first fuzzy project finder.
+Homebrew tap and Scoop bucket for [WTFIS](https://github.com/prophesourvolodymyr/WTFIS), a local-first fuzzy project finder.
+
+Project site: [WTFIS](https://wtf.professorvolodymyr.com/wtfis/) · [docs](https://wtf.professorvolodymyr.com/docs/).
 
 ```bash
 brew tap prophesourvolodymyr/wtfis
