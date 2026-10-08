@@ -1,18 +1,18 @@
 # homebrew-wtfis
 
-Homebrew tap and Scoop bucket for [WTFIS](https://github.com/prophesourvolodymyr/WTFIS), a local-first fuzzy project finder.
+Homebrew tap and Scoop bucket for [WTFIS](https://github.com/OFFICIAL-WTF/WTFIS), a local-first fuzzy project finder.
 
 Project site: [WTFIS](https://wtf.professorvolodymyr.com/wtfis/) · [docs](https://wtf.professorvolodymyr.com/docs/).
 
 ```bash
-brew tap prophesourvolodymyr/wtfis
+brew tap OFFICIAL-WTF/wtfis
 brew install wtfis
 ```
 
 Scoop on Windows:
 
 ```powershell
-scoop bucket add wtfis https://github.com/prophesourvolodymyr/homebrew-wtfis
+scoop bucket add wtfis https://github.com/OFFICIAL-WTF/homebrew-wtfis
 scoop install wtfis
 ```
 
