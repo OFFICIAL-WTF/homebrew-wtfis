@@ -1,11 +1,11 @@
 {
   "version": "1.0.3",
   "description": "Find projects fast from your terminal",
-  "homepage": "https://github.com/prophesourvolodymyr/WTFIS-CLI",
+  "homepage": "https://github.com/OFFICIAL-WTF/WTFIS",
   "license": "WTFPL",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/prophesourvolodymyr/WTFIS-CLI/releases/download/v1.0.3/wtfis-windows-x86_64.zip",
+      "url": "https://github.com/OFFICIAL-WTF/WTFIS/releases/download/v1.0.3/wtfis-windows-x86_64.zip",
       "hash": "ea8cd8a5da51e5e5293a251e0d17eba36db45dd8e94ce376ab6788b7137c8f9b",
       "extract_dir": "wtfis-windows-x86_64"
     }
@@ -19,12 +19,12 @@
     ". \"$dir\\shell\\wtfis.ps1\""
   ],
   "checkver": {
-    "github": "https://github.com/prophesourvolodymyr/WTFIS-CLI"
+    "github": "https://github.com/OFFICIAL-WTF/WTFIS"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/prophesourvolodymyr/WTFIS-CLI/releases/download/v$version/wtfis-windows-x86_64.zip"
+        "url": "https://github.com/OFFICIAL-WTF/WTFIS/releases/download/v$version/wtfis-windows-x86_64.zip"
       }
     }
   }
