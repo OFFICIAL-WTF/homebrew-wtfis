@@ -1,7 +1,7 @@
 class Wtfis < Formula
   desc "Find projects fast from your terminal"
-  homepage "https://github.com/prophesourvolodymyr/WTFIS"
-  url "https://github.com/prophesourvolodymyr/WTFIS/archive/refs/tags/v1.0.4.tar.gz"
+  homepage "https://github.com/OFFICIAL-WTF/WTFIS"
+  url "https://github.com/OFFICIAL-WTF/WTFIS/archive/refs/tags/v1.0.4.tar.gz"
   version "1.0.4"
   sha256 "0fb00564f5179f145dbdf2e997bbb20550ee1375ac742c80ba8b3a10ec9e1dce"
   license "WTFPL"
